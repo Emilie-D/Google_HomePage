@@ -39,10 +39,12 @@ li
 li > img
 {
   margin-top: -10px;
+  cursor: pointer;
 }
 
 li > input
 {
+  cursor: pointer;
   background-color: blue;
   color: white;
   border-radius: 4px;
@@ -51,33 +53,32 @@ li > input
 
 #logo
 {
-    text-align: center;
-    margin-top: 130px;
+  text-align: center;
+  margin-top: 130px;
 }
 
 #barre_recherche
 {
-    text-align: center;
-    border-radius: 50%;
-    margin-top: -60px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: -40px;
 }
 
 #boutons
 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 #boutons input
 {
-background-color: #eee;
- border: none;
- color: #grey;
- padding: 10px 15px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 13px;
+  background-color: #eee;
+  color: grey;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 footer
@@ -89,30 +90,37 @@ footer
  left: 0;
  bottom: 0;
  width: 100%;
+ flex-direction: column;
 }
 
 
-.pays
+.nav_footer div
+{ 
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  justify-content: space-between;
+}
+
+.nav_footer
 {
-
-   border-top: #CFCBCA;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5f6368;
+  height: 35px;
 }
 
-.footer_droit
+.footer_droit 
 {
-  text-align: right;
-  padding-top: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
-.footer_gauche
+.footer_gauche 
 {
-  float: left;
-  text-align: left;
-  margin: auto;
-  padding-top: 10px;
+  display: flex;
+  align-items: flex-start;
 }
-
-
 
 
