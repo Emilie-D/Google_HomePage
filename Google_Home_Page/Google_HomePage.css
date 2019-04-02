@@ -1,0 +1,64 @@
+body
+{
+    font-family: arial;
+}
+
+.top_navbar 
+{
+    text-align: right;
+}
+
+.top_navbar img
+{
+    margin-top: 10px;
+}
+
+
+.logo
+{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.barre_recherche
+{
+    text-align: center;
+    border-radius: 500%;
+}
+
+.boutons
+{
+    text-align: center;
+}
+
+footer
+{
+  display: flex;
+  background-color: #E1DDDC;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.pays
+{
+
+    border-top: #CFCBCA;
+
+}
+
+.footer_droit
+{
+   text-align: right;  
+   padding-top: 10px; 
+}
+
+.footer_gauche
+{
+   float: left;
+   text-align: left;
+   margin: auto;
+   padding-top: 10px;
+}
