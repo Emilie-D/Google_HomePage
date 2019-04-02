@@ -1,64 +1,118 @@
+a
+{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: purple;
+}
+
+
 body
 {
     font-family: arial;
 }
 
-.top_navbar 
+ul
 {
-    text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 2vh 80vw 0;
+  margin-top: -110px;
+  position: fixed;
 }
 
-.top_navbar img
+li
 {
-    margin-top: 10px;
+  display: flex;
+  margin: 5px;
+}
+
+li > img
+{
+  margin-top: -10px;
+}
+
+li > input
+{
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
 }
 
 
-.logo
+#logo
 {
     text-align: center;
     margin-top: 130px;
 }
 
-.barre_recherche
+#barre_recherche
 {
     text-align: center;
-    border-radius: 500%;
+    border-radius: 50%;
+    margin-top: -60px;
 }
 
-.boutons
+#boutons
 {
     text-align: center;
+    margin-top: 20px;
+}
+
+#boutons input
+{
+background-color: #eee;
+ border: none;
+ color: #grey;
+ padding: 10px 15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 13px;
 }
 
 footer
 {
-  display: flex;
-  background-color: #E1DDDC;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+ display: flex;
+ background-color: #eee;
+ color: #gray;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
 }
 
 
 .pays
 {
 
-    border-top: #CFCBCA;
+   border-top: #CFCBCA;
 
 }
 
 .footer_droit
 {
-   text-align: right;  
-   padding-top: 10px; 
+  text-align: right;
+  padding-top: 10px;
 }
 
 .footer_gauche
 {
-   float: left;
-   text-align: left;
-   margin: auto;
-   padding-top: 10px;
+  float: left;
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
 }
+
+
+
+
