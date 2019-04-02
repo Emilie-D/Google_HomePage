@@ -1,4 +1,4 @@
-**Semaine 1 - Mardi - The Hacking Project
+Semaine 1 - Mardi - The Hacking Project ☺
 
 Refaire la page d'accueil de Google en HTML et CSS en binôme
 
